@@ -40,4 +40,5 @@ end
 def sum_array(arr)
   i = 0
   arr.each {|e| i += e}
+  i
 end
