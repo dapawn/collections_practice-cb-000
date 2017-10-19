@@ -36,3 +36,8 @@ end
 def find_a(arr)
   arr.select {|e| e[0] == "a"}
 end
+
+def sum_array(arr)
+  i = 0
+  arr.each {|e| i += e}
+end
