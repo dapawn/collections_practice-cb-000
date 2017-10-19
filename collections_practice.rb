@@ -30,5 +30,5 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map { |e|  e[3..3] = "$"}
+  arr.map { |e|  e[3..3] = "$"; e}
 end
