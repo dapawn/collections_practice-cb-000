@@ -28,3 +28,7 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def kesha_maker(array)
+  arr.map { |e|  e[3] = "$"}
+end
