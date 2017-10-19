@@ -22,4 +22,5 @@ def swap_elements(arr)
   x = arr[1]
   arr[1] = arr[2]
   arr[2] = arr[3]
+  arr
 end
