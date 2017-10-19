@@ -32,3 +32,7 @@ end
 def kesha_maker(arr)
   arr.map { |e|  e[2] = "$"; e}
 end
+
+def find_a(arr)
+  arr.select {|e| e.first == "a"}
+end
